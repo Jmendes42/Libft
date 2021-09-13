@@ -14,7 +14,7 @@
 
 static int	counter(int n)
 {
-	int index;
+	int	index;
 
 	index = 1;
 	while (n >= 10 || n <= -10)
@@ -27,7 +27,7 @@ static int	counter(int n)
 	return (index);
 }
 
-char		*ft_itoa(int n)
+char	*ft_itoa(int n)
 {
 	char	*str;
 	long	nr;

@@ -14,8 +14,8 @@
 
 static int	count(char const *s, char c)
 {
-	unsigned int index;
-	unsigned int count;
+	unsigned int	index;
+	unsigned int	count;
 
 	index = 0;
 	count = 0;
@@ -31,7 +31,7 @@ static int	count(char const *s, char c)
 	return (count);
 }
 
-char		**ft_split(char const *s, char c)
+char	**ft_split(char const *s, char c)
 {
 	unsigned int	index;
 	unsigned int	index_a;

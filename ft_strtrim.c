@@ -14,7 +14,7 @@
 
 static int	is_set(char c, const char *set)
 {
-	unsigned int index;
+	unsigned int	index;
 
 	index = 0;
 	while (set[index] != '\0')
@@ -26,7 +26,7 @@ static int	is_set(char c, const char *set)
 	return (0);
 }
 
-char		*ft_strtrim(char const *s1, char const *set)
+char	*ft_strtrim(char const *s1, char const *set)
 {
 	char			*trim;
 	unsigned int	ini;

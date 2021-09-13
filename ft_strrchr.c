@@ -14,7 +14,7 @@
 
 char	*ft_strrchr(const char *s, int c)
 {
-	int index;
+	int	index;
 
 	index = 0;
 	while (s[index])

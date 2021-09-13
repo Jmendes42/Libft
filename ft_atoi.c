@@ -22,7 +22,7 @@ int	ft_atoi(const char *str)
 	sign = 1;
 	index = 0;
 	while (str[index] && ((str[index] >= 9 && str[index] <= 13)
-				|| (str[index] == 32)))
+			|| (str[index] == 32)))
 		index++;
 	if (str[index] == '-')
 	{

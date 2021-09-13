@@ -14,7 +14,7 @@
 
 void	*ft_calloc(size_t n, size_t size)
 {
-	void *ptr;
+	void	*ptr;
 
 	ptr = malloc(n * size);
 	if (ptr == NULL)
