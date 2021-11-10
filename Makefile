@@ -63,7 +63,7 @@ OBJ 	= $(SRC:.c=.o)
 
 OBJBON 	= $(SRCBON:.c=.o)
 
-CC		= gcc -Wall -Werror -Wextra -I $(HEADER)
+CC		= gcc -Wall -Wextra -Werror -I $(HEADER)
 
 HEADER	= libft.h
 
