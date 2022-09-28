@@ -11,3 +11,4 @@ It contains:
   - String (char *) manipulation;
   - Data type manipulation;
   - List manipulation;
+  - Miscellaneous;
